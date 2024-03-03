@@ -32,25 +32,7 @@
         {categoryId:4, categoryName: 'Джинсы'}, 
         {categoryId:5, categoryName: 'Брюки'}, 
         ]; 
-
-
-    /*
-    const groupedProducts = products.reduce((acc, product) => {
-        const categoryId = product.categoryId;
-        if (!acc[categoryId]) {
-            acc[categoryId] = [];
-        }
-        acc[categoryId].push(product);
-        return acc;        
-        },{});
-
-    Object.keys(groupedProducts).forEach(categoryId => {
-        console.log(categoryId);
-        groupedProducts[categoryId].forEach((item) => {
-            console.log(item.productName);
-        });
-    });
-    */    
+  
 
     const content = document.querySelector(".content");
 
